@@ -48,7 +48,7 @@ describe('Hra', () => {
     expect(hra.uroven).toBe(2);
   });
 
-  test('zvysUroven nevýši úroveň pri nedostatku bodov', () => {
+  test('zvysUroven nezvýši úroveň pri nedostatku bodov', () => {
     hra.inicializuj();
     hra.body = 50;
     const zvysena = hra.zvysUroven();

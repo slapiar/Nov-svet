@@ -6,10 +6,15 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   test-web:
     name: Test – Web
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     defaults:
       run:
         working-directory: web
@@ -26,6 +31,8 @@ jobs:
   test-game:
     name: Test – Hra
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     defaults:
       run:
         working-directory: game
@@ -42,6 +49,8 @@ jobs:
   lint:
     name: Kontrola kódu
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -61,6 +70,8 @@ jobs:
   docker:
     name: Docker build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     needs: [test-web, test-game]
     steps:
       - uses: actions/checkout@v4
