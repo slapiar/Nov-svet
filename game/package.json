@@ -1,0 +1,22 @@
+{
+  "name": "nov-svet-game",
+  "version": "1.0.0",
+  "description": "Nov-svet – Počítačová hra o vývoji medziľudských vzťahov",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "build": "echo 'Game build complete'",
+    "test": "jest",
+    "lint": "eslint src --ext .js",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

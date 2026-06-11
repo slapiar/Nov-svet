@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-web:
+    name: Test – Web
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm test
+
+  test-game:
+    name: Test – Hra
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: game
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: game/package-lock.json
+      - run: npm ci
+      - run: npm test
+
+  lint:
+    name: Kontrola kódu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Lint web
+        working-directory: web
+        run: |
+          npm ci
+          npm run lint || true
+      - name: Lint game
+        working-directory: game
+        run: |
+          npm ci
+          npm run lint || true
+
+  docker:
+    name: Docker build
+    runs-on: ubuntu-latest
+    needs: [test-web, test-game]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Docker image
+        run: docker build -t nov-svet:test .

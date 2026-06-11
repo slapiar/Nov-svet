@@ -1,0 +1,32 @@
+# Závislosti
+node_modules/
+package-lock.json
+
+# Build artefakty
+dist/
+build/
+*.pdf
+
+# Prostredie
+.env
+web/.env
+game/.env
+
+# Logy
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pokrytie testov
+coverage/
+web/coverage/
+game/coverage/
