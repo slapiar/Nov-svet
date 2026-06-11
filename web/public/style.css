@@ -1,0 +1,83 @@
+/* Nov-svet – hlavné štýly */
+
+:root {
+  --farba-primarna: #2c3e50;
+  --farba-sekundarna: #3498db;
+  --farba-pozadie: #f5f6fa;
+  --farba-text: #333;
+  --font-hlavny: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-hlavny);
+  background-color: var(--farba-pozadie);
+  color: var(--farba-text);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--farba-primarna);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  color: var(--farba-sekundarna);
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: var(--farba-sekundarna);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #888;
+  font-size: 0.9rem;
+}
