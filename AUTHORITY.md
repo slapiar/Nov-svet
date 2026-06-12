@@ -311,3 +311,17 @@ myšlienka
 → otvorený projekt
 → projekt v realizácii
 → udržateľný projekt
+
+## Pracovné stupne priority
+Stupeň	Stav	Význam
+0	Voľná myšlienka	nápad ešte nemá systémovú reflexiu; autorstvo môže byť známe, ale Autorita ešte nie je ukotvená v cieli
+1	Cieľ	myšlienka má prvú reflexiu v systéme; vzniká neodvolateľná Autorita pôvodu
+2	FS štúdia	myšlienka bola rozpracovaná, analyzovaná a posúdená z hľadiska uskutočniteľnosti
+3	Otvorený projekt	cieľ má vytvorený projektový priestor, do ktorého môžu vstupovať profily, autority, prísľuby a záväzky
+4	Projekt v realizácii	existujú konkrétne kroky, práca, záväzky, dôkazy a zodpovednosti
+5	Udržateľný projekt	projekt sa drží vlastnou funkčnosťou, prináša opakovateľný osoh a nie je závislý len od prvotného impulzu
+Dôležité rozlíšenie
+
+Autorita pôvodu sa nedá odvolať, pokiaľ myšlienka žije aspoň v cieli.
+
+Priorita tejto Autority však nie je statická. Rastie s každým ďalším stupňom uskutočnenia.
