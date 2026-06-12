@@ -3,6 +3,31 @@
 Záznam zmien a zafixovaných rozhodnutí projektu **Nový svet**.
 
 ---
+
+
+## 2026-06-12 – Validácia Autority autora, cieľa a projektu
+
+### Zafixovaný princíp validácie
+
+Autorita autora, zakladateľa, cieľa, myšlienky, nápadu alebo projektu sa v systéme nevaliduje iba formálnym zápisom.
+
+Validuje sa aj tým, že iný účastník prijme výzvu, vstúpi do komunikácie, pripojí sa k cieľu alebo sa zapojí do projektu.
+
+Každý účastník cieľa, myšlienky, nápadu alebo projektu svojím správaním validuje Autoritu ostatných účastníkov toho istého priestoru.
+
+### Validácia prijatím výzvy
+
+Ak autor alebo zakladateľ osloví účastníka výzvou, účastník má povinnosť zaujať stanovisko.
+
+V aplikácii to bude riešené tak, že rozhodovacie modálne okno nepustí účastníka k ďalšej činnosti, kým výzvu nepotvrdí alebo neodmietne.
+
+Základná odpoveď:
+
+```text
+1 = prijímam / potvrdzujem
+0 = odmietam / nepotvrdzujem
+
+
 ## 2026-06-12 – Axiómy autority myšlienky, cieľa a projektu
 
 ### Zafixovaný princíp bazálnej hodnoty myšlienky
