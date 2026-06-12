@@ -292,3 +292,22 @@ Zodpovednosť nesie.
 Autorita vzniká.
 A pri zlyhaní môže zaniknúť.
 ```
+## 2026-06-12 – Tvorba priorít Autority
+
+### Zafixovaný princíp
+
+Priority Autority sa netvoria izolovane podľa osoby, funkcie alebo dojmu.
+
+Priorita Autority sa tvorí podľa toho, **v akom stupni uskutočnenia sa nachádza myšlienka, cieľ alebo projekt**, ku ktorému je Autorita viazaná.
+
+Autorita pôvodu je neodvolateľná už vtedy, keď má myšlienka reflexiu aspoň v cieli. Jej priorita však rastie podľa toho, ako sa myšlienka postupne premieňa na uskutočnenú realitu.
+
+### Základná postupnosť priorít
+
+```text
+myšlienka
+→ cieľ
+→ FS štúdia / štúdia uskutočniteľnosti
+→ otvorený projekt
+→ projekt v realizácii
+→ udržateľný projekt
