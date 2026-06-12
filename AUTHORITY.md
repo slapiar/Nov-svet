@@ -179,21 +179,96 @@ Autorita vzniká z reálneho dôvodu a môže trvať len dovtedy, kým je tento 
 
 V prvej pracovnej verzii systému sa rozlišujú tieto reálne Autority:
 
+## 10. Pracovné typy Autorít
+
+V prvej pracovnej verzii systému sa rozlišujú tieto reálne alebo procesné Autority:
+
 1. Autorita autora myšlienky
-2. Autorita spolutvorcu projektu
-3. Autorita spolutvorcu metodiky
-4. Autorita spolutvorcu textov
-5. Autorita spolutvorcu kódu
-6. Autorita spolutvorcu databázy
-7. Autorita vývojára systému
-8. Autorita asistenta vývoja myšlienky
-9. Autorita asistenta vývoja kódu a databázy
-10. Autorita overovateľa logiky
-11. Autorita realizátora
-12. Autorita odborného garanta
-13. Autorita sponzora
-14. Autorita správcu
-15. Autorita komunity
+2. Autorita nositeľa myšlienky
+3. Autorita nositeľa svetla
+4. Autorita spoluautora
+5. Autorita spolutvorcu projektu
+6. Autorita spolutvorcu metodiky
+7. Autorita spolutvorcu textov
+8. Autorita spolutvorcu kódu
+9. Autorita spolutvorcu databázy
+10. Autorita vývojára systému
+11. Autorita asistenta vývoja myšlienky
+12. Autorita asistenta vývoja kódu a databázy
+13. Autorita overovateľa logiky
+14. Autorita realizátora
+15. Autorita odborného garanta
+16. Autorita sponzora
+17. Autorita správcu
+18. Autorita komunity
+19. Autorita leadu
+20. Autorita záujemcu
+21. Autorita žiadateľa o členstvo
+22. Autorita hráča
+23. Autorita člena redakčnej rady
+
+### Procesné Autority pred plným zapojením
+
+Nie každá Autorita vzniká až po plnom členstve. Niektoré Autority označujú stav človeka alebo subjektu ešte predtým, než sa naplno zapojí do systému.
+
+#### Autorita leadu
+
+Lead je potenciálny kontakt, ktorý sa ešte neprejavil vlastným záujmom, ale existuje dôvod dať mu myšlienku, projekt alebo výzvu do pozornosti.
+
+Autorita leadu nie je záslužná Autorita. Je to procesná Autorita kontaktu. Znamená, že systém alebo člen rozpoznal možnú hodnotu oslovenia.
+
+Lead môže byť napríklad:
+
+* človek s vhodným dielom,
+* odborník,
+* tvorca,
+* investor,
+* učiteľ,
+* vývojár,
+* komunita,
+* inštitúcia,
+* nositeľ príbuznej myšlienky.
+
+Lead ešte nič nesľúbil, nič nepotvrdil a ničím sa nezaviazal. Preto z jeho postavenia nevzniká žiadne oprávnenie, iba dôvod na pozorné a úctivé oslovenie.
+
+#### Autorita záujemcu
+
+Záujemca je človek alebo subjekt, ktorý už prejavil určitý záujem.
+
+Na rozdiel od leadu nejde iba o potenciálny kontakt. Záujemca už odpovedal, reagoval, vstúpil do komunikácie alebo prejavil ochotu dozvedieť sa viac.
+
+Autorita záujemcu je stále procesná, nie záslužná. Znamená však vyššiu mieru kontaktu ako lead.
+
+#### Autorita žiadateľa o členstvo
+
+Žiadateľ o členstvo je človek, ktorý už prejavil záujem vstúpiť do systému, komunity alebo projektu ako člen.
+
+Táto Autorita označuje stav pred prijatím. Žiadateľ ešte nemá plnú členskú Autoritu, ale má právo na riadne posúdenie, komunikáciu a spravodlivý postup podľa pravidiel systému.
+
+#### Autorita hráča
+
+Hráč je účastník herného alebo simulačného prostredia systému Nový svet.
+
+Autorita hráča vzniká vstupom do hry alebo herného modelu, ale jej rozsah závisí od pravidiel hry, splnených úloh, cieľov, prísľubov, dôkazov, spolupráce a osohu.
+
+Hráč môže byť zároveň členom, záujemcom, tvorcom, testovacím účastníkom alebo budúcim spolutvorcom.
+
+#### Autorita člena redakčnej rady
+
+Člen redakčnej rady má Autoritu v oblasti obsahu, výberu, hodnotenia, usmernenia a kultivácie textov, ideí, metodík alebo publikovaných výstupov.
+
+Táto Autorita je dôležitá najmä tam, kde systém pracuje s knihami, článkami, metodikami, duchovnými, morálnymi, vedeckými alebo kultúrnymi zdrojmi.
+
+Člen redakčnej rady nemusí byť vlastníkom projektu. Jeho Autorita vzniká z dôvery, odbornosti, tvorivého prínosu, skúsenosti alebo z toho, že je nositeľom významnej myšlienky.
+
+### Príklad: Emil Páleš
+
+Emil Páleš môže byť v systéme chápaný ako potenciálny nositeľ myšlienky, nositeľ svetla, spoluautor širšieho duchovného a morálneho rámca a možný člen redakčnej rady.
+
+Jeho Autorita by nevznikala z formálneho zaradenia do tabuľky, ale z reálneho diela, ktoré už priniesol, a z možného ďalšieho zapojenia do spoločného rozvoja myšlienky.
+
+V systéme by preto mohol byť najprv vedený ako lead, následne ako oslovený záujemca, a pri prijatí spolupráce ako člen redakčnej rady, nositeľ myšlienky alebo spoluautor príslušnej časti diela.
+
 
 Tieto Autority budú neskôr prevedené do databázovej tabuľky po dohode o ich presných názvoch, rozsahu a pravidlách vzniku alebo zániku.
 
