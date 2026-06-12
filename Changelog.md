@@ -4,6 +4,152 @@ Záznam zmien a zafixovaných rozhodnutí projektu **Nový svet**.
 
 ---
 
+## 2026-06-12 – SQL mapa kapitol 1.1 a 1.2
+
+### Zafixované mapovanie textov do databázy
+
+Po prečítaní súborov:
+
+- `1. Kapitola.md`
+- `1.2 Zmysly a Vnemy.md`
+
+bolo potvrdené, že pred pokračovaním na ďalšie kapitoly treba najprv dokončiť SQL mapovanie toho, čo už je v kapitolách 1.1 a 1.2 popísané.
+
+Základné pravidlo ostáva nezmenené:
+
+```text
+Bez placeholderov.
+Bez testovacích záznamov.
+Do ostrej databázy sa vkladá iba to, čo je už reálne popísané alebo zdrojovo doložené.
+```
+
+### Interné zdroje kapitol
+
+Do tabuľky `ns_sources` boli pridané dva interné projektové Markdown zdroje:
+
+| Source code | Súbor | Význam |
+|---|---|---|
+| `novy_svet_ch_1_1_archetypalne_dominanty` | `1. Kapitola.md` | Zdroj pre archetypálne dominanty, drámy pozornosti, stred kyvadla a praktický význam morálnych matríc |
+| `novy_svet_ch_1_2_zmysly_vnemy` | `1.2 Zmysly a Vnemy.md` | Zdroj pre zmysly, vnemy, telesné signály, pudy, myšlienkové výklady a skutky ako dôkazy |
+
+### Drámy pozornosti ako tiene archetypov
+
+Bola vytvorená tabuľka:
+
+```text
+ns_archetype_attention_dramas
+```
+
+Účel tabuľky:
+
+```text
+mapovať konkrétne drámy pozornosti opísané v kapitole 1.1 na príslušné archetypy
+```
+
+Do tabuľky bolo vložených 6 riadkov, presne podľa kapitoly 1.1:
+
+| Archetyp | Drama code | Názov drámy |
+|---|---|---|
+| Oriphiel | `oriphiel_sudca_casu` | Oriphielská dráma: Sudca času |
+| Zachariel | `zachariel_vseved_guru` | Zacharielovská dráma: Vševed / Guru |
+| Michael | `michael_zastrasovatel` | Michaelovská dráma: Zastrašovateľ |
+| Anael | `anael_zvodca_narcis` | Anaelovská dráma: Zvodca / Narcis |
+| Rafael | `rafael_chladny_hrac` | Rafaelovská dráma: Chladný hráč |
+| Gabriel | `gabriel_chudak_ja` | Gabrielovská dráma: Chudák ja |
+
+Samael nebol do tejto tabuľky doplnený, pretože v kapitole 1.1 zatiaľ nemá samostatne popísanú drámu pozornosti. Tým ostáva databáza verná textu a nič si nevymýšľa.
+
+Kontrolný výpis potvrdil:
+
+```text
+ns_archetype_attention_dramas → 6 riadkov
+```
+
+### Zmyslové a vnemové brány archetypov
+
+Bola vytvorená tabuľka:
+
+```text
+ns_archetype_sensory_gateways
+```
+
+Účel tabuľky:
+
+```text
+mapovať zmyslové, telesné a vnútorné brány pôsobenia archetypov podľa kapitoly 1.2
+```
+
+Do tabuľky bolo vložených 7 riadkov:
+
+| Archetyp | Gateway code | Názov brány |
+|---|---|---|
+| Oriphiel | `oriphiel_zmyslova_brana` | Oriphielova zmyslová brána času a hranice |
+| Zachariel | `zachariel_zmyslova_brana` | Zacharielova zmyslová brána miery a nadhľadu |
+| Michael | `michael_zmyslova_brana` | Michaelova zmyslová brána |
+| Samael | `samael_zmyslova_brana` | Samaelova vnútorná brána prítomnosti |
+| Anael | `anael_zmyslova_brana` | Anaelova zmyslová brána |
+| Rafael | `rafael_zmyslova_brana` | Rafaelova zmyslová brána |
+| Gabriel | `gabriel_zmyslova_brana` | Gabrielova zmyslová brána |
+
+Kontrolný výpis potvrdil:
+
+```text
+ns_archetype_sensory_gateways → 7 riadkov
+```
+
+Dôležité rozhodnutie:
+
+```text
+Samael má svoje miesto v zmyslovej / vnútornej vrstve podľa kapitoly 1.2,
+ale nie je zatiaľ doplnený do drám pozornosti podľa kapitoly 1.1.
+```
+
+### Procesná postupnosť z kapitoly 1.2
+
+Bola vytvorená tabuľka:
+
+```text
+ns_matrix_process_steps
+```
+
+Účel tabuľky:
+
+```text
+zachytiť základnú procesnú postupnosť mapovania človeka od prvého vnemu po skutok ako dôkaz
+```
+
+Do tabuľky boli vložené 4 kroky:
+
+| Poradie | Step code | Názov kroku | Význam |
+|---:|---|---|---|
+| 1 | `vnemy_prve_signaly` | Vnemy sú prvé signály | Vnem je prvý signál aktivácie matrice |
+| 2 | `pudy_prve_impulzy` | Pudy sú prvé impulzy | Pud ukazuje smer prvotnej reakcie |
+| 3 | `myslienky_prve_vyklady` | Myšlienky sú prvé výklady | Myšlienka ukazuje, ako si človek vysvetľuje aktivovanú silu |
+| 4 | `skutky_prve_dokazy` | Skutky sú prvé dôkazy | Skutok je rozhodujúci pre pravdivosť prejavu, osoh a rast Autority |
+
+Kontrolný výpis potvrdil:
+
+```text
+ns_matrix_process_steps → 4 riadky
+```
+
+### Potvrdený procesný most
+
+Týmto bol v databáze ukotvený procesný most:
+
+```text
+zmyslový vnem
+→ pudový impulz
+→ myšlienkový výklad
+→ skutok ako dôkaz
+→ osoh
+→ možný rast Autority
+```
+
+Tento most je základom pre ďalšie algoritmické mapovanie profilu člena v systéme Nový svet.
+
+---
+
 ## 2026-06-12 – 3M / mapa morálnych matríc a historická vrstva
 
 ### Zafixované princípy práce
