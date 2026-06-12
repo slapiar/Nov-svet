@@ -3,6 +3,21 @@
 Záznam zmien a zafixovaných rozhodnutí projektu **Nový svet**.
 
 ---
+## 2026-06-12 – Axiómy autority myšlienky, cieľa a projektu
+
+### Zafixovaný princíp bazálnej hodnoty myšlienky
+
+Bolo potvrdené, že **myšlienka, nápad alebo pôvodný zámer je bazálnou hodnotou všetkého ďalšieho vývoja systému**.
+
+Bez myšlienky nevzniká cieľ.  
+Bez cieľa nevzniká projekt.  
+Bez projektu nevzniká realizácia.  
+Bez realizácie nevzniká udržateľný systém.
+
+Preto platí:
+
+```text
+myšlienka → cieľ → štúdia uskutočniteľnosti → otvorený projekt → projekt v realizácii → udržateľný projekt
 
 ## 2026-06-12 – SQL mapa kapitol 1.1 a 1.2
 
