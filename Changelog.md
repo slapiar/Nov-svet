@@ -9,7 +9,7 @@ Záznam zmien a zafixovaných rozhodnutí projektu **Nový svet**.
 
 ### Zafixovaný princíp validácie
 
-Autorita autora, zakladateľa, cieľa, myšlienky, nápadu alebo projektu sa v systéme nevaliduje iba formálnym zápisom.
+Komu sa dostalo cti rozhodovať sam nemôže sa zdržať rozhodnutia. Inak sám stratí na autorite a vylúči sa z rozhodovacieho procesu. Proces pokračuje bez neho. Autorita autora, zakladateľa, cieľa, myšlienky, nápadu alebo projektu sa v systéme nevaliduje iba formálnym zápisom.
 
 Validuje sa aj tým, že iný účastník prijme výzvu, vstúpi do komunikácie, pripojí sa k cieľu alebo sa zapojí do projektu.
 
