@@ -15,6 +15,9 @@ For Dylan, the important English entry points are:
 3. [`EMAIL_TO_DYLAN.md`](./EMAIL_TO_DYLAN.md)  
    A short email draft whose only purpose is to invite Dylan into the repository.
 
+R. [`README_EN.md`](./EMAIL_TO_DYLAN.md)  
+   The main English translation of Slovak README.md   
+
 The core idea is simple:
 
 ```text
