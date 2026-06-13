@@ -3,7 +3,16 @@
 Záznam zmien a zafixovaných rozhodnutí projektu **Nový svet**.
 
 ---
+## 2026-06-13 – Zephyr ako prvá PM vrstva Nového sveta
 
+Bol vytvorený súbor `ZEPHYR.md`, ktorý mapuje možnosti pluginov Zephyr Project Manager Free + PRO na prvú projektovú vrstvu systému Nový svet.
+
+Zafixované pracovné rozhodnutie:
+
+```text
+Zephyr zatiaľ nie je Nový svet.
+
+Ale môže byť prvou dielňou, v ktorej zistíme, či sa Nový svet dá technicky a vzťahovo skladať bez zbytočného plytvania energiou, psychikou a peniazmi.
 
 ## 2026-06-12 – Validácia Autority autora, cieľa a projektu
 
