@@ -506,3 +506,24 @@ Autorita určuje oprávnenie v konkrétnom vzťahu.
 Kontrakt formalizuje dohodu o práci, zdrojoch, cene, čase a výsledku.
 Cluster validity chráni systém pred neoprávneným vstupom, falošnými nárokmi a zneužitím zdrojov.
 ```
+## Projektový manažment ako technické jadro testovania systému
+
+Projektový manažment netvorí iba pomocný organizačný nástroj, ale základnú technickú vrstvu pre testovanie vzťahov, cieľov, prísľubov, záväzkov, dôkazov, osohu a Autority.
+
+Prvá fáza vývoja nemá smerovať k tvorbe nového softvéru od nuly. Prednosť má využitie existujúcich modulárnych riešení, ktoré umožnia overiť princípy systému v praxi.
+
+Ako prvý pracovný kandidát sa použije existujúca inštalácia Zephyr Project Manager PRO vo WordPresse, najmä pre jeho podporu projektov, úloh, kategórií, diskusií, príloh, kalendára, notifikácií, importu/exportu a vlastných polí.
+
+Paralelne sa môžu skúmať open-source self-hosted riešenia, najmä OpenProject, Leantime, Plane, Redmine, Vikunja a NocoBase. Cieľom porovnania nie je nájsť najbohatší projektový manažér, ale nástroj najvhodnejší na modelovanie postupnosti:
+
+cieľ → prísľub → záväzok → skutok → dôkaz → osoh → Autorita → vzťahová udržateľnosť.
+
+Rozhodujúce kritériá výberu:
+- self-hosting a kontrola nad dátami,
+- možnosť vlastných polí,
+- export/import dát,
+- API alebo iná integračná vrstva,
+- práca s rolami a oprávneniami,
+- podpora diskusií a dôkazových príloh,
+- možnosť postupného rozšírenia bez vendor lock-inu,
+- použiteľnosť pre bežných členov, nie iba pre vývojárov.
