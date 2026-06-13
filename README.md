@@ -271,6 +271,7 @@ vzťah / oznámenie vzťahu
 → činnosť
 → validácia
 → zodpovednosť
+```
 
 Po nikom sa nesmie požadovať zodpovednosť za niečo, čo nepozná, o čom nevie alebo k čomu nebol prizvaný.
 
